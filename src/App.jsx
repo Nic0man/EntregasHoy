@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import { Login } from './Components/login'
+import { Login } from './Components/Login'
 
 function App() {
   const [count, setCount] = useState(0)
